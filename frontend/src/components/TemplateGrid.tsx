@@ -3,7 +3,7 @@
 import { useRouter } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import Hls from 'hls.js';
-import type { Template } from '../types';
+import type { Template } from '@/types';
 
 interface TemplateGridProps {
   templates: Template[];

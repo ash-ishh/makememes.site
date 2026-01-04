@@ -3,13 +3,13 @@
 import { useState, useEffect } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import Link from 'next/link';
-import type { Template, RunResult, ApiError } from '../../../types';
-import Header from '../../../components/Header';
-import CodeEditor from '../../../components/CodeEditor';
-import VideoPlayer from '../../../components/VideoPlayer';
-import AssetBrowser from '../../../components/AssetBrowser';
-import SourceAssets from '../../../components/SourceAssets';
-import { apiClient } from '../../../lib/api-client';
+import type { Template, RunResult, ApiError } from '@/types';
+import Header from '@/components/Header';
+import CodeEditor from '@/components/CodeEditor';
+import VideoPlayer from '@/components/VideoPlayer';
+import AssetBrowser from '@/components/AssetBrowser';
+import SourceAssets from '@/components/SourceAssets';
+import { apiClient } from '@/lib/api';
 
 export default function TemplatePage() {
   const router = useRouter();

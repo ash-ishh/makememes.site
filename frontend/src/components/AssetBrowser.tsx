@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import type { AssetsResponse } from '../types';
+import type { AssetsResponse } from '@/types';
 
 interface AssetBrowserProps {
   onLoad: () => Promise<AssetsResponse>;
