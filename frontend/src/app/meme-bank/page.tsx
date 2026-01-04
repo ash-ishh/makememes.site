@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Header from '@/components/Header';
 import MemeBank from '@/components/MemeBank';
-import { apiClient } from '../../lib/api';
+import { apiClient } from '@/lib/api-client';
 
 export default function MemeBankPage() {
   const handleApiKeyChange = (key: string) => {

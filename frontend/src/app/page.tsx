@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import TemplateGrid from '@/components/TemplateGrid';
-import { apiClient } from '../lib/api';
+import { apiClient } from '@/lib/api-client';
 import type { Template } from '@/types';
 
 export default function HomePage() {

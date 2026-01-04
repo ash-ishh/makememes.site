@@ -9,7 +9,7 @@ import CodeEditor from '@/components/CodeEditor';
 import VideoPlayer from '@/components/VideoPlayer';
 import AssetBrowser from '@/components/AssetBrowser';
 import SourceAssets from '@/components/SourceAssets';
-import { apiClient } from '../../../lib/api';
+import { apiClient } from '@/lib/api-client';
 
 export default function TemplatePage() {
   const router = useRouter();
