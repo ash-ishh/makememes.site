@@ -1,0 +1,65 @@
+{
+  "templates": [
+    {
+      "template_id": "tmkoc_jethalal_ny_1",
+      "name": "TMKOC Jethalal NY Chill",
+      "description": "TMKOC Jethalal NY Chill meme with 2x2 grid and custom text overlays.",
+      "tags": ["meme", "tmkoc", "grid", "jethalal"],
+      "difficulty": "intermediate",
+      "code_path": "tmkoc_jethalal_ny_1.py",
+      "params_schema": [
+        {
+          "name": "video_id",
+          "type": "video_asset_id",
+          "required": true
+        },
+        {
+          "name": "duration",
+          "type": "number",
+          "required": false,
+          "default": 10
+        },
+        {
+          "name": "video_start",
+          "type": "number",
+          "required": false,
+          "default": 0
+        },
+        {
+          "name": "top_left_text",
+          "type": "text",
+          "required": false,
+          "default": "Normal Day"
+        },
+        {
+          "name": "top_right_text",
+          "type": "text",
+          "required": false,
+          "default": "Birthday"
+        },
+        {
+          "name": "bottom_left_text",
+          "type": "text",
+          "required": false,
+          "default": "31st December"
+        },
+        {
+          "name": "bottom_right_text",
+          "type": "text",
+          "required": false,
+          "default": "New Year"
+        }
+      ],
+      "demo_inputs": {
+        "video_id": "m-z-019b849d-5b5a-7cb2-8da5-1e6d508d325b",
+        "duration": 17,
+        "video_start": 0,
+        "top_left_text": "Normal Day",
+        "top_right_text": "Birthday",
+        "bottom_left_text": "31st December",
+        "bottom_right_text": "New Year"
+      },
+      "preview_stream_url": "https://play.videodb.io/v1/4f66e5ff-ba9c-474e-ba34-4ff583e4eb0c.m3u8"
+    }
+  ]
+}

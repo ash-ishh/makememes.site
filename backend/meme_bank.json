@@ -1,0 +1,37 @@
+{
+  "meme_sources": [
+    {
+      "id": "tmkoc-jethalal-sunday-chai-fafda",
+      "name": "TMKOC Jethalal Sunday Chai Fafda",
+      "description": "TMKOC Jethalal Sunday craving Chai and Fafda, chill life.",
+      "category": "TMKOC",
+      "tags": ["TMKOC", "Jethalal", "Sunday", "Chai", "Fafda"],
+      "source_url": "https://stream.videodb.io/v3/published/manifests/fb2ae260-5d11-4bfc-8b6b-13ca8f20a390.m3u8",
+      "preview_url": "https://stream.videodb.io/v3/published/manifests/fb2ae260-5d11-4bfc-8b6b-13ca8f20a390.m3u8",
+      "thumbnail_url": null,
+      "media_type": "video"
+    },
+    {
+      "id": "deewangi-song-kahene-ko-waise-to-hook",
+      "name": "Deewangi Song Kahene Ko Waise To Hook",
+      "description": "Deewangi Song Kahene Ko Waise To Hook, hooking life.",
+      "category": "bollywood",
+      "tags": ["Bollywood", "Song", "SRK", "Om Shanti Om"],
+      "source_url": "https://stream.videodb.io/v3/published/manifests/d51ed6b2-1add-4f5e-9cb5-48e62276c819.m3u8",
+      "preview_url": "https://stream.videodb.io/v3/published/manifests/d51ed6b2-1add-4f5e-9cb5-48e62276c819.m3u8",
+      "thumbnail_url": null,
+      "media_type": "video"
+    },
+    {
+      "id": "nirash-nai-hone-denge",
+      "name": "Nirash Nai Hone Denge",
+      "description": "Nirash Nai Hone Denge.", 
+      "category": "random",
+      "tags": ["random"],
+      "source_url": "https://stream.videodb.io/v3/published/manifests/6b007593-ee20-4396-93e2-7ec4e25bf6be.m3u8",
+      "preview_url": "https://stream.videodb.io/v3/published/manifests/6b007593-ee20-4396-93e2-7ec4e25bf6be.m3u8",
+      "thumbnail_url": null,
+      "media_type": "video"
+    }
+  ]
+}
