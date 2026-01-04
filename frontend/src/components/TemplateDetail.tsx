@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import type { Template, ParamSchema, RunResult, ApiError } from '@/types';
+import type { Template, ParamSchema, RunResult, ApiError } from '../types';
 import VideoPlayer from './VideoPlayer';
 import AssetBrowser from './AssetBrowser';
 

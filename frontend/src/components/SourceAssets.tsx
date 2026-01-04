@@ -1,6 +1,6 @@
 'use client';
 
-import type { SourceAsset } from '@/types';
+import type { SourceAsset } from '../types';
 
 interface SourceAssetsProps {
   assets: SourceAsset[];
