@@ -27,12 +27,14 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-https://makememes.site/api}
     container_name: makememes-frontend
     restart: unless-stopped
     ports:
       - "3000:3000"
     environment:
-      - NEXT_PUBLIC_API_URL=https://makememes.site/api
+       - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-https://makememes.site/api}
     depends_on:
       - backend
     networks:
