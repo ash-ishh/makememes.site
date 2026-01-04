@@ -51,3 +51,5 @@ frontend/out/
 # Docker
 *.dockerfile
 docker-compose.override.yml
+
+certbot

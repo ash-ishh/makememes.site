@@ -18,6 +18,7 @@ app.add_middleware(
         "http://localhost:3000",  # Next.js dev server
         "http://127.0.0.1:3000",
         "http://localhost",  # Docker nginx proxy
+        "https://makememes.site",  # Production domain
         "*"  # Allow all origins in production (consider restricting to your domain)
     ],
     allow_credentials=True,
