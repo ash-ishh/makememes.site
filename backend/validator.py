@@ -33,6 +33,10 @@ def validate_params(schema: List[Dict[str, Any]], params: Dict[str, Any]) -> Tup
             if not isinstance(value, str):
                 errors.append(f"{name} must be a string")
                 continue
+            
+            # Handle escaped newlines from frontend for text fields
+            if field_type == "text":
+                value = value.replace("\\n", "\n")
         elif field_type == "number":
             if not _is_number(value):
                 errors.append(f"{name} must be a number")

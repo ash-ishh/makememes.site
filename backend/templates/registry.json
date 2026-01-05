@@ -5,7 +5,7 @@
       "name": "TMKOC Jethalal NY Chill",
       "description": "TMKOC Jethalal NY Chill meme with 2x2 grid and custom text overlays.",
       "tags": ["meme", "tmkoc", "grid", "jethalal"],
-      "difficulty": "intermediate",
+      "difficulty": "basic",
       "code_path": "tmkoc_jethalal_ny_1.py",
       "params_schema": [
         {
@@ -60,6 +60,126 @@
         "bottom_right_text": "New Year"
       },
       "preview_stream_url": "https://play.videodb.io/v1/4f66e5ff-ba9c-474e-ba34-4ff583e4eb0c.m3u8"
+    },
+    {
+    "template_id": "nirash_ny_meme",
+    "name": "Nirash NY Meme ",
+    "description": "Creates a 2x2 grid layout meme showing the same video in all four quadrants with year labels (2023, 2024, 2025, 2026) overlay. Perfect for creating 'year progression' or 'nothing changed' meme videos.",
+    "tags": ["nirash", "ny", "meme"],
+    "difficulty": "basic",
+    "code_path": "nirash_ny_meme.py",
+    "params_schema": [
+      {
+        "name": "video_id",
+        "type": "video_asset_id",
+        "required": true,
+        "description": "The video to be displayed in all four quadrants"
+      },
+      {
+        "name": "duration",
+        "type": "number",
+        "required": false,
+        "default": 15.25,
+        "description": "Duration of the output video in seconds"
+      },
+      {
+        "name": "resolution",
+        "type": "enum",
+        "required": false,
+        "default": "1280x720",
+        "options": ["1280x720", "1920x1080", "608x1080"],
+        "description": "Output video resolution"
+      },
+      {
+        "name": "text_size",
+        "type": "number",
+        "required": false,
+        "default": 40,
+        "description": "Font size for the year labels"
+      },
+      {
+        "name": "text_color",
+        "type": "text",
+        "required": false,
+        "default": "#FFD700",
+        "description": "Color of the year labels in hex format (default: gold)"
+      }
+    ],
+    "demo_inputs": {
+      "video_id": "m-z-019b89c2-466d-7d50-b791-f92f2c414c1a",
+      "duration": 15.25,
+      "resolution": "1280x720",
+      "text_size": 40,
+      "text_color": "#FFD700"
+    },
+    "preview_stream_url": "https://stream.videodb.io/v3/published/manifests/f5afa3de-72c5-467d-88d1-e7333457f589.m3u8"
+    },
+    {
+      "template_id": "walter_white_falling",
+      "name": "Walter White Falling Down Stairs",
+      "description": "Walter white falling down stairs meme",
+      "tags": ["breaking-bad", "text", "overlay"],
+      "difficulty": "basic",
+      "code_path": "walter_white_falling.py",
+      "params_schema": [
+        {
+          "name": "video_id",
+          "type": "video_asset_id",
+          "required": true
+        },
+        {
+          "name": "text",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "duration",
+          "type": "number",
+          "required": false,
+          "default": 14
+        },
+        {
+          "name": "font_size",
+          "type": "number",
+          "required": false,
+          "default": 44
+        },
+        {
+          "name": "font_color",
+          "type": "text",
+          "required": false,
+          "default": "#FFFFFF"
+        },
+        {
+          "name": "border_color",
+          "type": "text",
+          "required": false,
+          "default": "#000000"
+        },
+        {
+          "name": "border_width",
+          "type": "number",
+          "required": false,
+          "default": 1.5
+        },
+        {
+          "name": "video_start",
+          "type": "number",
+          "required": false,
+          "default": 0
+        }
+      ],
+      "demo_inputs": {
+        "video_id": "m-z-019b8f1f-9b3d-7690-b823-2a031e7f6182",
+        "text": "Messi when he goes back\nto USA and the effects\nof breathing in 900AQI\nfinally catches up to him",
+        "duration": 14,
+        "font_size": 44,
+        "font_color": "#FFFFFF",
+        "border_color": "#000000",
+        "border_width": 1.5,
+        "video_start": 0
+      },
+      "preview_stream_url": "https://play.videodb.io/v1/f3dec31b-c195-4238-bb27-018a5f62349c.m3u8"
     }
   ]
 }
