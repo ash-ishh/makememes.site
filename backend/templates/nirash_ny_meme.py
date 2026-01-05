@@ -12,7 +12,7 @@ def render(conn, params):
     Perfect for creating "year progression" meme videos.
     """
     video_id = params["video_id"]
-    duration = params.get("duration", 15.25)
+    duration = params.get("duration", 20)
     resolution = params.get("resolution", "1280x720")
     text_size = params.get("text_size", 40)
     text_color = params.get("text_color", "#FFD700")

@@ -79,7 +79,7 @@
         "name": "duration",
         "type": "number",
         "required": false,
-        "default": 15.25,
+        "default": 20,
         "description": "Duration of the output video in seconds"
       },
       {
@@ -107,12 +107,12 @@
     ],
     "demo_inputs": {
       "video_id": "m-z-019b89c2-466d-7d50-b791-f92f2c414c1a",
-      "duration": 15.25,
+      "duration": 20,
       "resolution": "1280x720",
       "text_size": 40,
       "text_color": "#FFD700"
     },
-    "preview_stream_url": "https://play.videodb.io/v1/5000bd69-86d4-4809-a171-b887d6edd165.m3u8"
+    "preview_stream_url": "https://play.videodb.io/v1/06262831-27e6-48ec-b959-77d63ee34937.m3u8"
     },
     {
       "template_id": "walter_white_falling",
